@@ -1,0 +1,112 @@
+* {
+    background-color: mintcream;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.title{
+    font-size: 3rem;
+    color: black;
+}
+
+.container { 
+    display: grid;
+    grid-gap: 1rem;
+    border-color: mintcream;
+    border-radius: 6px;
+    border-style: solid;
+    box-shadow: 0px 0.5px 4px #474a51;
+    margin: 6rem;
+    min-width: auto;
+}
+
+.join {
+    display: grid;
+    padding: 2rem;
+}
+
+.join h1 {
+   color: #2CB3B8;
+   margin-bottom: 1rem; 
+}
+
+.join h2 {
+    color: #B0D43B;
+    margin-bottom: 1rem;
+}
+
+.join p {
+    color: #A5ADAD;
+    margin-bottom: 0.5rem;
+}
+
+.containerPrice {   
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+}
+
+.price, .h1Price, .h2Price, .pPrice{
+    background-color: #2CB3B8;
+    color: white;
+    padding: 0.7rem;
+}
+
+.h1Price {
+    font-size: 20px;
+}
+
+.pPrice {
+    color: #cfffff;
+    font-size: 14px;
+}
+
+.divPrice {
+    margin: 8%;
+}
+
+.divButton {
+    display: flex;
+    justify-content: center;
+    background-color: #2CB3B8;
+    min-width: 40%;
+    margin-top: 10%;    
+}
+
+.button {
+    color: white;
+    border-color: #B0D43B;
+    background-color: #B0D43B;
+    box-shadow: 0 0.5px 5px #474a51;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 80%;
+}
+
+.why {
+    padding: 2rem;
+    background-color: #45bdc7;
+    color: white;
+}
+
+.h1Why {
+    padding: 0.5rem;
+    background-color: #45bdc7;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+.lista li {
+    background-color: #45bdc7;
+    padding: 0.3rem;
+    font-size: 14px;
+    color: #cfffff;
+}
